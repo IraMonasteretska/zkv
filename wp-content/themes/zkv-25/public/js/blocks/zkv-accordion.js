@@ -1,0 +1,1 @@
+(self.webpackChunkskeleton_theme=self.webpackChunkskeleton_theme||[]).push([[345],{868:()=>{document.querySelectorAll(".accordion-tabs .tab input").forEach((function(e){e.addEventListener("change",(function(){var e=this;this.checked&&document.querySelectorAll(".accordion-tabs .tab input").forEach((function(t){t!==e&&(t.checked=!1)}))}))}))}},e=>{var t;t=868,e(e.s=t)}]);
