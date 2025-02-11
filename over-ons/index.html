@@ -13,9 +13,10 @@
 <meta name="robots" content="max-image-preview:large">
 	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
 	<link rel="stylesheet" id="wp-block-library-css" href="./../wp-includes/css/dist/block-library/style.min.css?ver=6.7.1" type="text/css" media="all">
-<link rel="stylesheet" id="app-css" href="./../wp-content/themes/zkv-25/public/css/app.css?id=fd9882bc6020c905871d997a2297b52b" type="text/css" media="all">
+<link rel="stylesheet" id="app-css" href="./../wp-content/themes/zkv-25/public/css/app.css?id=2b04b7cdde3354c1d44fc26d84e7e0ca" type="text/css" media="all">
 <link rel="stylesheet" id="template-page-css" href="./../wp-content/themes/zkv-25/public/css/templates/page.css?id=4ad93d8b9a114d147936726c15e2aae4" type="text/css" media="all">
 <style id="safe-svg-svg-icon-style-inline-css" type="text/css">.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{height:100%;max-height:100%;max-width:100%;width:100%}</style>
+<link rel="stylesheet" id="contact-form-7-css" href="./../wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.0.3" type="text/css" media="all">
 <script type="text/javascript" src="./../wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 <link rel="https://api.w.org/" href="./../wp-json/index.html">
 <link rel="alternate" title="JSON" type="application/json" href="./../wp-json/wp/v2/pages/25/index.html">
@@ -77,8 +78,8 @@
           </li>
 
     
-        <li class="nav-item  menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
-      <a class="nav-link" target="" href="./../nieuwsbrief/index.html">Nieuwsbrief</a>
+        <li class="nav-item link-out menu-item menu-item-type-post_type menu-item-object-page menu-item-40">
+      <a class="nav-link" target="_blank" href="./../nieuwsbrief/index.html">Nieuwsbrief</a>
           </li>
 
     
@@ -327,7 +328,35 @@ var themeVars = {"home":".\/","isHome":""};
 /* ]]> */
 </script>
 <script type="text/javascript" src="./../wp-content/themes/zkv-25/public/js/manifest.js?id=3326120141b6b0e2a47125b9242ccd9c" id="manifest-js"></script>
-<script type="text/javascript" src="./../wp-content/themes/zkv-25/public/js/app.js?id=fb05d4f27457fa131c29c5bf4b84d6e3" id="app-js"></script>
+<script type="text/javascript" src="./../wp-content/themes/zkv-25/public/js/app.js?id=3721d44d37b74007c883b5f4034a3f40" id="app-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script type="text/javascript" src="./../wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text directionltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.0.3" id="swv-js"></script>
+<script type="text/javascript" id="contact-form-7-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2025-02-04 10:06:31+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"nl_BE"},"This contact form is placed in the wrong place.":["Dit contactformulier staat op de verkeerde plek."],"Error:":["Fout:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" id="contact-form-7-js-before">
+/* <![CDATA[ */
+var wpcf7 = {
+    "api": {
+        "root": ".\/\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+/* ]]> */
+</script>
+<script type="text/javascript" src="./../wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.3" id="contact-form-7-js"></script>
 
 </body>
 
